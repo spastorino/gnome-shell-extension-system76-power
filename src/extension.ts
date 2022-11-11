@@ -160,7 +160,7 @@ export class Ext {
 
     graphics_profiles: GraphicsProfiles | null = null;
 
-    power_menu: GObj = Main.panel.statusArea['aggregateMenu']._power._item.menu;
+    power_menu: GObj = Main.panel.statusArea['quickSettings']._power._item.menu;
     graphics_separator: GObj = new PopupMenu.PopupSeparatorMenuItem();
     profile_separator: GObj = new PopupMenu.PopupSeparatorMenuItem();
 
